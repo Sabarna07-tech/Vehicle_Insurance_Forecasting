@@ -104,6 +104,7 @@ export MONGODB_URL="mongodb+srv://<username>:<password>@cluster-url"
 ```bash
 python demo.py
 ```
+
 - This will run the complete pipeline: ingestion, validation, transformation, training, evaluation, and pushing the model to S3.
 
 ### 5. Launch the API
@@ -111,6 +112,7 @@ python demo.py
 ```bash
 python app.py
 ```
+
 - Visit `http://localhost:5000` (or your deployed endpoint) to use the prediction API.
 
 ### 6. CI/CD and Deployment

@@ -4,7 +4,7 @@ numpy
 matplotlib
 plotly
 seaborn
-scikit-learn
+scikit-learn==1.5.2
 pymongo
 from_root
 dill
@@ -17,5 +17,5 @@ fastapi
 python-multipart
 uvicorn
 jinja2
-imblearn
+imbalanced-learn==0.12.4
 -e .
